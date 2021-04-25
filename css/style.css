@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: antiquewhite;
+    z-index: -1;
+}
+#logo{
+   width: 100px; 
+   margin-bottom: 10px;
+}
+
+#header{
+    align-items: center;
+    width:100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    background-color:white;
+    margin-bottom: 0px;
+    
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+    padding-inline-start: 40px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #778899;
+    border-radius: 5px;
+    border: solid #778899 2px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.mainimage{
+    float: left;
+    height: 500%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+   
+}
+
+#q{
+    float: right;
+    margin-top: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+    background-color:whitesmoke;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#footer{
+background-color: #20B2AA;
+height: 70px;
+margin-top: 400px;
+
+
+}
+
+#facebook{
+width: 32px;
+float: right;
+margin-top: 10px;
+margin-right: 5px;
+
+}
+
+#instagram{
+width:40px;
+float: right;
+margin-top: 10px;
+margin-right: 48px;
+}
+
+#twitter{
+    width: 32px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 50px;
+}
+
+.info{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: unset;
+    margin: 700px;
+    margin-left: -600px;
+}
